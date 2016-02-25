@@ -1,0 +1,51 @@
+img {
+	height: 400px;
+	width: 100%;
+}
+
+.nav {
+	margin: 5px 0 5px 0;
+	overflow: hidden;
+}
+
+.nav p {
+	float: left;
+	margin: 7px;
+}
+
+.header-element {
+	list-style: none;
+}
+
+.one {
+	
+}
+
+/*This overlays the text onto image*/
+
+/*.header-section {
+	position: relative;
+}
+
+.header-element #sp {
+	position: absolute;
+	top: 120px;
+	display: inline;
+	padding: 0 37.7%;
+}
+
+.header-element #tyb {
+	position: absolute;
+	top: 175px;
+	padding: 0 34.6%;
+}
+
+.header-element #sp, #tyb {
+	font-size: 48px;
+	color: white;
+}*/
+
+
+
+
+
