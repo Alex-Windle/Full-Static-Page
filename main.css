@@ -1,5 +1,4 @@
 img {
-	height: 400px;
 	width: 100%;
 }
 
@@ -13,13 +12,95 @@ img {
 	margin: 7px;
 }
 
-.header-element {
-	list-style: none;
+.header-section {
+/*	border: 2px solid red;*/
+	position: relative;
 }
 
-.one {
-	
+/*******DRY ENOUGH?*******/
+.header-li:last-of-type {
+	position: absolute;
+	top: 33%;
+	left: 35%;	
 }
+
+.header-li #words {
+/*	border: 2px solid red;*/
+	display: inline-block;
+	text-align: center;
+}
+
+#words p {
+/*	border: 2px solid blue;*/
+	font-size: 45px;
+	color: white;
+	margin: 5px 0;
+}
+/*****DRY ENOUGH? END******/
+.one {
+	border: 2px solid red;
+	display: inline-block;
+	width: 100%;
+}
+
+/*div.one .each {
+	background-color: #ccc;
+}*/
+
+/******TURN DIV OFF*******/
+ul.plan {
+	border: 2px solid blue;
+	display: inline-block;
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+}
+
+.each {
+	border: 3px dotted green;
+	margin: 15px;
+	float: left;
+}
+
+.each div:first-of-type {
+	background-color: green;
+}
+
+.each ul {
+	background-color: #ccc;
+}
+
+.each div:last-of-type p {
+	background-color: lightyellow;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.two {
+	border: 2px solid red;
+	margin: 5px;
+	padding: 5px;
+}
+
+.footer {
+	border: 2px solid red;
+	margin: 5px;
+	padding: 5px;
+}
+
+/******************************/
 
 /*This overlays the text onto image*/
 
