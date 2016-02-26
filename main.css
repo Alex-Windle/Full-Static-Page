@@ -40,6 +40,7 @@ img {
 .one {
 	border: 2px solid red;
 	display: inline-block;
+	text-align: center;
 	width: 100%;
 }
 
@@ -48,8 +49,10 @@ img {
 }*/
 
 /******TURN DIV OFF*******/
+
+/***General Styling for One Charts***/
 ul.plan {
-	border: 2px solid blue;
+/*	border: 2px solid blue;*/
 	display: inline-block;
 	list-style: none;
 	overflow: hidden;
@@ -57,17 +60,22 @@ ul.plan {
 }
 
 .each {
-	border: 3px dotted green;
-	margin: 15px;
+	border: 1px solid #CFCFCF;
+	margin: 5px;
 	float: left;
 }
 
-.each div:first-of-type {
-	background-color: green;
+.each ul {
+	padding-left: 0;
 }
 
-.each ul {
-	background-color: #ccc;
+.each ul li {
+	background-color: #EDEDED;
+	color: #6B6B6B;
+	font-size: 11px;
+	padding: 10px 50px;
+	list-style: none;
+	border-bottom: .5px solid #CFCFCF;
 }
 
 .each div:last-of-type p {
@@ -75,24 +83,52 @@ ul.plan {
 	margin: 0;
 }
 
+/****General Styling One Color Block*****/
+.each div:first-of-type {
+	color: white;
+	padding: 18px 0;
+}
 
+.each div:first-of-type #name {
+	font-size: 12px;
+}
 
+.each div:first-of-type #dollars {
+	font-size: 55px;
 
+}
 
+.each div:first-of-type #per-month {
+	color: #dbdbdb;
+	font-size: 14px;
+}
 
+.each #green {
+	background-color: #3F9E4D;
+}
 
+.each #blue {
+	background-color: #0D4F8B;
+}
 
+.each #black {
+	background-color: black;
+}
+/***************************/
 
-
-
-
-
-
-.two {
+/*.two ul {
 	border: 2px solid red;
+	list-style: none;
 	margin: 5px;
 	padding: 5px;
 }
+
+.two ul li {
+	border: 2px solid pink;
+	margin: 35px;
+	width: 520px;
+	font-size: 14px;
+}*/
 
 .footer {
 	border: 2px solid red;
