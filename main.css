@@ -21,7 +21,7 @@ img {
 .header-li:last-of-type {
 	position: absolute;
 	top: 33%;
-	left: 35%;	
+	left: 33%;	
 }
 
 .header-li #words {
@@ -32,23 +32,17 @@ img {
 
 #words p {
 /*	border: 2px solid blue;*/
-	font-size: 45px;
+	font-size: 70px;
 	color: white;
-	margin: 5px 0;
+	margin: 8px 0;
 }
 /*****DRY ENOUGH? END******/
 .one {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	display: inline-block;
 	text-align: center;
 	width: 100%;
 }
-
-/*div.one .each {
-	background-color: #ccc;
-}*/
-
-/******TURN DIV OFF*******/
 
 /***General Styling for One Charts***/
 ul.plan {
@@ -61,8 +55,9 @@ ul.plan {
 
 .each {
 	border: 1px solid #CFCFCF;
-	margin: 5px;
+	margin: 20px;
 	float: left;
+	width: 360px;
 }
 
 .each ul {
@@ -72,7 +67,7 @@ ul.plan {
 .each ul li {
 	background-color: #EDEDED;
 	color: #6B6B6B;
-	font-size: 11px;
+	font-size: 18px;
 	padding: 10px 50px;
 	list-style: none;
 	border-bottom: .5px solid #CFCFCF;
@@ -86,21 +81,21 @@ ul.plan {
 /****General Styling One Color Block*****/
 .each div:first-of-type {
 	color: white;
-	padding: 18px 0;
+	padding: 50px 0;
 }
 
 .each div:first-of-type #name {
-	font-size: 12px;
+	font-size: 20px;
 }
 
 .each div:first-of-type #dollars {
-	font-size: 55px;
+	font-size: 100px;
 
 }
 
 .each div:first-of-type #per-month {
 	color: #dbdbdb;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 .each #green {
@@ -115,7 +110,20 @@ ul.plan {
 	background-color: black;
 }
 /***************************/
+.two {
+	border: 2px solid blue;
+}
 
+.two ul {
+	border: 2px solid red;
+	margin: 10px;
+}
+
+.two ul li {
+	border: 2px solid pink;
+	margin: 10px;
+	width: 600px;
+}
 /*.two ul {
 	border: 2px solid red;
 	list-style: none;
