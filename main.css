@@ -82,10 +82,15 @@ ul.plan {
 
 .each div:last-of-type p {
 	background-color: white;
+	border: 1px solid #CFCFCF;
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: bolder;
 	margin: 20px;
+	padding: 6px 12px;
+	display: inline-block;
 }
 
-/****General Styling One Color Block*****/
 .each div:first-of-type {
 	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
@@ -170,9 +175,21 @@ ul.plan {
 }*/
 
 .footer {
-	border: 2px solid red;
+/*	border: 2px solid red;*/
 	margin: 5px;
-	padding: 5px;
+	padding: 25px;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	background-color: black;
+}
+
+.footer #middle-text {
+	color: gray;
+}
+.footer .try-now-unsplash {
+	text-decoration: underline;
+
 }
 
 /******************************/
