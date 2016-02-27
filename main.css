@@ -11,11 +11,17 @@ img {
 	float: left;
 	margin: 7px;
 	font-size: 16px;
+	letter-spacing: 90%;
+	color: gray;
 }
 
 .nav .nav-styling {
-	color: darkgray;
+	color: #636363;
 	letter-spacing: .4px;
+}
+
+.nav #pricing {
+	color: black;
 }
 
 .header-section {
@@ -47,6 +53,7 @@ img {
 	/*border: 2px solid red;*/
 	display: inline-block;
 	text-align: center;
+	margin: 30px 0 15px 0;
 	width: 100%;
 }
 
@@ -73,8 +80,8 @@ ul.plan {
 .each ul li {
 	background-color: #EDEDED;
 	color: #6B6B6B;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 15px;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
 	padding: 7.5px 35px;
 	list-style: none;
 	border-bottom: .5px solid #CFCFCF;
@@ -86,7 +93,7 @@ ul.plan {
 	border-radius: 25px;
 	font-size: 14px;
 	font-weight: bolder;
-	margin: 20px;
+	margin: 23px 20px;
 	padding: 6px 12px;
 	display: inline-block;
 }
